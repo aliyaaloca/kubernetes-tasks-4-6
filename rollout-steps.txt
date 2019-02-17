@@ -1,0 +1,4 @@
+deployments "nginx-app"
+REVISION  CHANGE-CAUSE
+3         kubectl apply --filename=nginx-app-dp.yaml --record=true
+4         kubectl apply --filename=nginx-app-dp.yaml --record=true
